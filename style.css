@@ -22,15 +22,37 @@
 /*******************************************/
 
 body {
-
+ 
 }
 
+header, footer{
+  height: 100px;
+  border: 2px solid black;
+  clear: both;
+}
+
+section{
+  height: 200px;
+  width: 33.3333%;
+  border: 2px solid black;
+  float: left;
+}
+
+.secondLine{
+  width: 50%;
+}
 
 /******************************************
 /* LAYOUT
-/*******************************************/
+/*******************************************
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media all and (max-width: 600px){
+  section{
+    background-color: blue;
+  }
+}
